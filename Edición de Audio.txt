@@ -1,0 +1,42 @@
+
+Tutorial:
+	
+	Tutorial de Adobe Premiere CC - Pt. 7 - Sincronización de Audio manual, con CC y con Pluraleyes
+		https://www.youtube.com/watch?v=YcpzzElUxI0&list=PLzli6UeKO6YjQWnYq8HbTWvBQhrwwHtFt&index=8
+
+
+
+
+
+	Desvinculación de audio de un video
+
+
+		1_para selecciono el click, en el timeline, y hacemos "mouse right + click", y seleccionamos la opción en el menú contextual de "UnLink", 
+
+		para así, desvincular el audio nativo del video eel click, sea para moverlo ó desfazarlo así, como eliminarlo y hasta cambiarlo por otro de mayor calidad
+
+	
+
+	vincular audio a un lcick
+
+		1_cargamos el click, de video, este si tiene audio debemos desvincularlo primero
+
+		2_importamos el audio auxiliar que deseamos relacioanarlo con el video/click,
+
+		3_podemos arrastras el audio auxiliar sobre el audio existente del click "desvinculado", para reemplazarlo ó, eliminar previamente al audio del click desvinculado
+
+		4_ahora tendremos que seleccionar tanto el click, de video así, como el audio auxiliar reemplazante y hacer "mouse right + click", y seleccionar la opción de "Link"
+
+
+	sincronizar audio modo premiere pro:
+
+		1_para esto seleccionamos el click, de video y el click, de audio en el panel "proyect", y hacemos mouse right + click, y elegimos en el menú contextual la opción de
+
+		"Create multi-Cam Source Secuence", así se generará un archivo de tipo "sub-secuence", el cuál contendrá los clicks, con el audio sincronizado entre ambos clicks
+
+		2_ahora si lo deseamos podemos podiar los clicks, con los audios sincronizados y copiarlos y pegarlos dentro de otra secuencia, para así, no pender del modo de edición de sub-secuence
+
+
+
+	sincronización de audio modo PluralEyes
+

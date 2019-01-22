@@ -1,0 +1,60 @@
+
+Nota:
+	para usar los scopes debemos abrir un nuevo panel en Premiere_Pro/Window/Reference Monitor, y dentro de este si hacer 
+
+	"mouse right + click", y seleccionar que tipo de scope deseamos visualizar para la edición de video
+
+
+
+Tutorial:
+
+	El uso de los scopes, Vectorscope, Waveform Monitor, RGB Parade
+		https://www.savetubevideo.com/?v=9rEKvnLu1oI
+
+
+
+	YC Waveform (EXPOSICIÓN Y LUMINANCIA)
+
+		1_este nos permite visualizar la exposición y gama de la imágen de un click, este nos muestra la exposición de abajos hacia arriba y de derecha a izquierda
+
+		2_donde (0) "abajo", es lo más oscuro y (100), "arriba", es lo más claro en la imágen del click,
+
+		3_y de izquierda a derecha nos muestra como esta conformada la imágen, en este sentido, hace una lectura de la imágen y la convierte a un histograma de izquierda a derecha
+
+		4_tomando en cuenta sólo la luminancia de la imágen, descartando para este tipo muestreo la información del color de la imágen del click,
+
+		5_así, se entiende que todo lo que este sobre ó cercano a (100), estará sobre-expuesto y, lo que está por debajo de (0), ó cercano estará sub-expuesto
+
+		6_enmarcando la gamma de la imágen del click, lograremos lo que denominan una imágen en regla
+
+
+
+	Vectorscope (COLOR Y SATURACIÓN)
+
+		1_el vectorscope, toma como criterios para su análisis, el color de la imágen y la saturación de la misma, descartando la luminancia
+
+		2_el vectorscope hace de diana de colores espectral, la cuál se compone de los colores primarios (RGB), y los complementarios (CMY),
+
+		dichos modos de color se distribuyen en una configuración de dos triángulos encontrados para que así, el triángulo (RGB), se encuentre enfrentado
+
+		al triángulo de los colores complementarios (CMY)
+
+		3_así, el vectorscope nos muestra de forma concéntrica a partir de su epicentro hacia la periferia del círculo de la diana, hacia donde se proyecta el color 
+
+		en sus diferentes dominantes cromáticas, dentro de los modos de color RGB/CMY
+
+		4_así. si culaquier color excede la periferia de la diana de color espectral indicará que dicho color está sobre saturada
+
+
+
+
+	RGB Parade
+
+		1_éste toma como criterios para su análisis tando la luminancia ó exposición como el color
+
+		2-este nos muestra las bandas expectrales del color de forma separada ó independientes, R/G/B
+
+		3_y este se expresa así, donde (0), es la parte más oscura en la imágen y (100), es la parte más clara ó iluminada en la imágen
+
+		4_así, podremos ver de forma expectral e idependiente por canal el comportamiendo y alcance de cada color así, como el de la luminancia
+
