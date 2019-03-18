@@ -33,7 +33,7 @@ _____________________________
 
 		_Eliminar Clips: Delete/Supr
 
-		_Eliminar Clips: Alt + Delete/Supr (eliminando también, los espacios vacíos dejados por los clips, elimiandos)
+		_Eliminar Clips: Shift + Delete/Supr (eliminando también, los espacios vacíos dejados por los clips, elimiandos)
 
 		_Cortar Clips: Control + X (cortar clips, de un lugar para luego pegarlos en otro lugar)
 
@@ -77,11 +77,25 @@ _____________________________
 
 		_Next/Prev 5 Frame: Shift + Left/Right Arrows Keyboard
 
-		_Inicio: inicio/home ó Shift + I, (ir al inicio del timeline)
+		_Inicio: "inicio/home", (ir al inicio del timeline)		
 
-		_Fin: fin/end ó Shift + O, (ir al final del timeline)
+		_Fin: "fin/end", (ir al final del timeline)
+
+		_Ir la Punto de Entrada: Shift + I
+
+		_Ir al Punto de Salida: Shift + O
+
+		_Borrar Punto de Entrada: Control + Shift + I
+
+		_Borrar Punto de Salida: Control + Shift + O
+
+		_Borrar Punto de Entrada y de Salida: Control + Shift + X
 
 		_Next/Prev clip: keyboard arrow Up/Down
+
+		_Ir a la Próximo Marcador: Shift + M
+
+		_Ir al Previo Marcador: Control + Shift + M
 
 
 	Marks:
@@ -91,6 +105,10 @@ _____________________________
 
 		_Marks: Options: M/M
 
+		_Clear Selected Marker: Control + Alt + M
+
+		_Clear All Markers: Control Alt + Shift + M
+
 
 	Audio:
 	______		
@@ -98,10 +116,16 @@ _____________________________
 		_Audio Gain: G
 
 
+	Cache Media:
+	____________
+
+		_Agilizar la previsualización de los clips: "Enter"
+
+
 	Render/Export:
 	______________		
 
-		_Rendering: Enter (renderizar el workarea)
+		_Export Media: Control + M
 
 
 
@@ -114,7 +138,9 @@ _____________________________
 
 		_Super Razor Tool: Shift + C (serve para cortar ó dividir múltiples clips en línea)
 
-		_Track Select Tool: A (sirve para mover tracks, ó clips)
+		_Track Select Tool: A (sirve para seleccionar todos los clips, que estén a la derecha de la posición de la herramienta, tanto clips, de audio como video), lo cuál, es muy útil para la edición por bloques de clips, apilados
+
+			_Track Select Tool: Shift + A (sirve para seleccionar todos los clips, que estén a la izquierda de la posición de la herramienta, tanto clips, de audio como video), lo cuál, es muy útil para la edición por bloques de clips, apilados
 
 		_Ripple Edit Tool: B (nos permite recortar y editar clicks, mientras se ajusta la cola de clips automáticamente)
 
@@ -126,6 +152,54 @@ _____________________________
 
 		_Slip Tool: Y (nos permite variar la secuencia ó filmstrip, dentro de un click, sin aumentar ó dinsminuir su tamaño)
 
+		_Pen Tool: P (para crear keyframes, en propiedades directamente en un clip)
+
+			_mover keyfremes, restringidos verticalmente: ALt + Mouse Left Click Up/Down
+
+			_mover keyfremes, restringidos horizontalmente: ALt + Mouse Left Click Left/Right
+
+			_crear interpolación espacial de keyframes, a través, de handles: Control + Mouse Left Click and Drag, sobre un keyframe, para que así,aparezcan unos handles, a través, de los cuáles podremos controlar la curva generada
+
+			_Add Keyframes: Control + Mouse Left Click, sobre una trayectoria entre dos keyframes, existentes para que así, se genere un nuevo keyframe
+
+			_más si hacemos "Mouse Right Click", sobre un keyframe, tanto en el panel "Effects Controls", como directamente en un clip
+
+				_nos aparecerá un menú contextual en el que podremos seleccionar el tipo de interpolación de keyframes, de ésta manera, podremos controlar tanto la interpolación temporal como la espacial:
+
+					_Linear:
+
+						_interpolación espacial linear ó directa, ésta es la opción por defecto
+
+					_Bezier:
+
+						_interpolación espacial variable y personalizable por el usuario
+
+					_Auto Bezier:
+
+						_interpolación espacial automática que buscará suavizar el movimiento pero a su vez evitará curvas muy pronunciadas y poco naturales
+
+					_Continuous Bezier:
+
+						_interpolación espacial variable y personalizable por el usuario en un keyframe, que se encuentre entre otros dos keyframes
+
+					_Hold:
+
+						_interpolación temporal de bloque la cuál, hará un salto en la posición del objeto hasta un nueva ubicación del siguiente keyframe 
+						
+						_omitiendo los frames, intermedios sin realizar interpolación de éstos a través, del tiempo
+
+					_Ease In:
+
+						_interpolación temporal suavizada en el inicio ó punto de entrada de la animación ó del keyframe, respectivamente
+
+					Ease Out:
+
+						_interpolación temporal suavizada en el final ó punto de salida de la animación ó del keyframe, respectivamente
+
+					_Delete_
+
+						_ésta opción nos permitirá eliminar un keyframe, seleccionado
+
 		
 
 	Clips:
@@ -133,7 +207,120 @@ _____________________________
 
 		_Cut Clip Pre/Post: Q/W (eliminar la parte anterior ó posterior de clip, en relación a la posición del cabezal del timeline, sobre el clip, seleccionado respectivo)
 
-		_Crear SubCLip: Control + U
+		_Crear SubCLip: Control + U (sobre el panel viewer "Source")
+
+			_también podremos crear sub clips, al abrir un medio en el panel "source", y una vez hemos indicado un punto de entrada y de salida, shortcut, "I/O", para posteriormente pulsar Control + Mouse Left Click and Drag al panel "Project", para que así, un nuevo sub clip, sea creado
+
+			_más también, tendremos la posibilidad de crear sub clip, a partir de clips, de tipo instancias ya creados en el timeline, para lo cuál, tendremos que seleccionar el respectivo clip, en el timeline, para posteriormente pulsar "Control + Mouse Left Click and Drag", hasta el panel "Project", para que así, un nuevo sub clip, sea creado
+
+
+
+		Clip Properties:
+		________________
+
+			_tenemos la posibilidad de crear keyfreames, directamente en un clip, en el timeline, y de editar los keyframes, generados por propiedades específicas
+
+				_para lo cuál, dispondremos de un ícono "Fx", al inicio y en la parte superior de cada clip, sea éste un clip de audio como de video
+
+				_de ésta manera, podremos hacer "mouse right click", sobre éste ícono para que así, nos aparezca un menú contextual en el cuál, dispondremos de las opciones ó propiedades de animación:
+
+				Video Clip:
+				___________
+
+					_Motion:
+
+						_Position:
+
+							_éste parámetro de animación nos permitirá hacer variaciones sobre la posición del clip, del video en el panel viewer
+
+						_Scale:
+
+							_éste parámetro de animación nos permitirá hacer variaciones sobre la escala del clip, en el panel viewer
+
+						_Uniform Scale:
+
+							_éste parámetro de animación nos permitirá hacer variaciones sobre la escala proporcionalmente ó individualmente de las proporciones y tamaño del clip, en el panel viewer
+
+						_Rotation:
+
+							_éste parámetro de animación nos permitirá hacer variaciones sobre la rotación del clip, de video en relación al panel viewer
+
+						_Anchor Point:
+
+							_éste parámetro de animación nos permitirá hacer variaciones sobre el punto de anclaje en relación al viewer
+
+						_Anti-Flicker Filter:
+
+							_(indeterminado)
+
+					_Opacity:
+
+						_Opacity:
+
+							_éste parámetro de animación nos permitirá hacer variaciones sobre la opacidad del clip, del video respectivo
+
+					_Time Remapping:
+
+						_Speed:
+
+							_éste parámetro de animación nos permitirá hacer variaciones sobre la velocidad de reproducción del clip 
+							
+							_así, como también, sobre la dirección de reproducción, de ésta manera, podremos hasta invertir el sentido de reproducción
+
+					_Fxs:
+
+						_éstos son parámetros auxiliares para los efectos y plugis, de terceros que agreguemos al clip, respectivo
+
+
+				Audio Clip:
+				___________
+
+					_Edit Current Effect:
+
+						_
+
+					_Volume:
+
+						_Bypass:
+
+							_
+
+						_Level:
+
+							_
+
+					_Channel Volume:
+
+						_Bypass:
+
+							_
+
+						_Left:
+
+							_
+
+						_Right:
+
+							_
+
+					_Balance:
+
+						_Bypass:
+
+							_
+
+						_Balance:
+
+							_
+
+					_Panner:
+
+						_Balance:
+
+							_
+
+
+
 
 
 	Edición en el viewer:
