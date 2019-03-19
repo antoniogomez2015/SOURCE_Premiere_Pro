@@ -1,8 +1,13 @@
 
+
+El uso de los scopes, Vectorscope, Waveform Monitor, RGB Parade
+	https://www.youtube.com/watch?v=9rEKvnLu1oI
+
+
 Nota:
 	para usar los scopes debemos abrir un nuevo panel en Premiere_Pro/Window/Reference Monitor, y dentro de este si hacer 
 
-	"mouse right + click", y seleccionar que tipo de scope deseamos visualizar para la edición de video
+	"mouse right + click", y seleccionar que tipo de scope deseamos visualizar para la ediciï¿½n de video
 
 
 
@@ -13,48 +18,48 @@ Tutorial:
 
 
 
-	YC Waveform (EXPOSICIÓN Y LUMINANCIA)
+	YC Waveform (EXPOSICIï¿½N Y LUMINANCIA)
 
-		1_este nos permite visualizar la exposición y gama de la imágen de un click, este nos muestra la exposición de abajos hacia arriba y de derecha a izquierda
+		1_este nos permite visualizar la exposiciï¿½n y gama de la imï¿½gen de un click, este nos muestra la exposiciï¿½n de abajos hacia arriba y de derecha a izquierda
 
-		2_donde (0) "abajo", es lo más oscuro y (100), "arriba", es lo más claro en la imágen del click,
+		2_donde (0) "abajo", es lo mï¿½s oscuro y (100), "arriba", es lo mï¿½s claro en la imï¿½gen del click,
 
-		3_y de izquierda a derecha nos muestra como esta conformada la imágen, en este sentido, hace una lectura de la imágen y la convierte a un histograma de izquierda a derecha
+		3_y de izquierda a derecha nos muestra como esta conformada la imï¿½gen, en este sentido, hace una lectura de la imï¿½gen y la convierte a un histograma de izquierda a derecha
 
-		4_tomando en cuenta sólo la luminancia de la imágen, descartando para este tipo muestreo la información del color de la imágen del click,
+		4_tomando en cuenta sï¿½lo la luminancia de la imï¿½gen, descartando para este tipo muestreo la informaciï¿½n del color de la imï¿½gen del click,
 
-		5_así, se entiende que todo lo que este sobre ó cercano a (100), estará sobre-expuesto y, lo que está por debajo de (0), ó cercano estará sub-expuesto
+		5_asï¿½, se entiende que todo lo que este sobre ï¿½ cercano a (100), estarï¿½ sobre-expuesto y, lo que estï¿½ por debajo de (0), ï¿½ cercano estarï¿½ sub-expuesto
 
-		6_enmarcando la gamma de la imágen del click, lograremos lo que denominan una imágen en regla
+		6_enmarcando la gamma de la imï¿½gen del click, lograremos lo que denominan una imï¿½gen en regla
 
 
 
-	Vectorscope (COLOR Y SATURACIÓN)
+	Vectorscope (COLOR Y SATURACIï¿½N)
 
-		1_el vectorscope, toma como criterios para su análisis, el color de la imágen y la saturación de la misma, descartando la luminancia
+		1_el vectorscope, toma como criterios para su anï¿½lisis, el color de la imï¿½gen y la saturaciï¿½n de la misma, descartando la luminancia
 
-		2_el vectorscope hace de diana de colores espectral, la cuál se compone de los colores primarios (RGB), y los complementarios (CMY),
+		2_el vectorscope hace de diana de colores espectral, la cuï¿½l se compone de los colores primarios (RGB), y los complementarios (CMY),
 
-		dichos modos de color se distribuyen en una configuración de dos triángulos encontrados para que así, el triángulo (RGB), se encuentre enfrentado
+		dichos modos de color se distribuyen en una configuraciï¿½n de dos triï¿½ngulos encontrados para que asï¿½, el triï¿½ngulo (RGB), se encuentre enfrentado
 
-		al triángulo de los colores complementarios (CMY)
+		al triï¿½ngulo de los colores complementarios (CMY)
 
-		3_así, el vectorscope nos muestra de forma concéntrica a partir de su epicentro hacia la periferia del círculo de la diana, hacia donde se proyecta el color 
+		3_asï¿½, el vectorscope nos muestra de forma concï¿½ntrica a partir de su epicentro hacia la periferia del cï¿½rculo de la diana, hacia donde se proyecta el color 
 
-		en sus diferentes dominantes cromáticas, dentro de los modos de color RGB/CMY
+		en sus diferentes dominantes cromï¿½ticas, dentro de los modos de color RGB/CMY
 
-		4_así. si culaquier color excede la periferia de la diana de color espectral indicará que dicho color está sobre saturada
+		4_asï¿½. si culaquier color excede la periferia de la diana de color espectral indicarï¿½ que dicho color estï¿½ sobre saturada
 
 
 
 
 	RGB Parade
 
-		1_éste toma como criterios para su análisis tando la luminancia ó exposición como el color
+		1_ï¿½ste toma como criterios para su anï¿½lisis tando la luminancia ï¿½ exposiciï¿½n como el color
 
-		2-este nos muestra las bandas expectrales del color de forma separada ó independientes, R/G/B
+		2-este nos muestra las bandas expectrales del color de forma separada ï¿½ independientes, R/G/B
 
-		3_y este se expresa así, donde (0), es la parte más oscura en la imágen y (100), es la parte más clara ó iluminada en la imágen
+		3_y este se expresa asï¿½, donde (0), es la parte mï¿½s oscura en la imï¿½gen y (100), es la parte mï¿½s clara ï¿½ iluminada en la imï¿½gen
 
-		4_así, podremos ver de forma expectral e idependiente por canal el comportamiendo y alcance de cada color así, como el de la luminancia
+		4_asï¿½, podremos ver de forma expectral e idependiente por canal el comportamiendo y alcance de cada color asï¿½, como el de la luminancia
 
